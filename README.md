@@ -50,8 +50,6 @@
 - **Jaipuria Intelligence** - Academic data assistant using text-to-SQL, semantic search, query routing, caching, and natural-language exploration of institutional content.
 - **AI course generation pipeline** - Planning, review, lesson generation, verification, and credit tracking with FastAPI, Next.js, Supabase, and multi-model LLM workflows.
 - **Memory infrastructure** - Moved interview memory from Mem0 Cloud to a self-hosted Render + pgvector service while preserving memory categories and reducing infrastructure cost.
-- **CareAI** - Flask and scikit-learn medical advisory system with symptom prediction, voice input, and health guidance.
-- **MelodyNet** - CNN music genre classifier using mel-spectrogram preprocessing, TensorFlow, Flask, React, and Render deployment.
 
 ## Writing
 
