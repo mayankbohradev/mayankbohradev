@@ -21,6 +21,11 @@
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
+![Email Infra](https://img.shields.io/badge/Email_Infra-queues%20%7C%20retries%20%7C%20DLQ-111827?style=flat-square)
+![Delivery Reliability](https://img.shields.io/badge/Delivery_Reliability-bounces%20%7C%20deferrals%20%7C%20throttling-0F766E?style=flat-square)
+![Debug Tooling](https://img.shields.io/badge/Debug_Tooling-events%20%7C%20logs%20%7C%20traceability-2563EB?style=flat-square)
+![Resend SDK](https://img.shields.io/badge/Resend_SDK-Python%20%7C%20tests%20%7C%20docs-7C3AED?style=flat-square)
+
 > I build AI systems that remember context, use tools, and survive real users. My work sits at the product layer of AI: clear jobs, backend reliability, useful evaluation, and workflows that make people sharper instead of hiding the thinking.
 
 ## Products
@@ -29,18 +34,6 @@
 - **[Rehearsal AI](https://rehearsal.gradeless.ai)** - Voice-powered interview preparation platform at Gradeless AI. I work on question delivery, voice interviews, scoring, feedback reports, RAG, memory, and backend reliability across 10+ institutions.
 - **[Context Hub](https://contexthub.tryrehearsal.ai)** - Personal context layer for Claude, ChatGPT, Perplexity, Cursor, and other MCP clients. Deploys to Cloudflare Workers and keeps memory portable across tools.
 - **[Multicast](https://www.npmjs.com/package/create-multicast)** - MCP gateway that fans out tool calls across multiple HTTP MCP servers in parallel, reducing repeated model thinking cycles and making remote tool use faster.
-
-## Resend Infra Track
-
-| Area | What I am showcasing |
-| --- | --- |
-| ![Email Queues](https://img.shields.io/badge/Email_Queues-retries%20%7C%20DLQ%20%7C%20workers-111827?style=flat-square) | Delivery pipelines with queue-backed workers, retry policy, dead-letter handling, and idempotency. |
-| ![Sending Reliability](https://img.shields.io/badge/Sending_Reliability-bounces%20%7C%20deferrals%20%7C%20throttling-0F766E?style=flat-square) | Bounce classification, provider deferrals, rate limits, backpressure, and reputation-aware routing simulations. |
-| ![Debug Console](https://img.shields.io/badge/Debug_Console-logs%20%7C%20events%20%7C%20traceability-2563EB?style=flat-square) | Operator-friendly visibility into message lifecycle, delivery attempts, worker decisions, and failure reasons. |
-| ![SDK Contributions](https://img.shields.io/badge/SDK_Contributions-Python%20%7C%20tests%20%7C%20docs-7C3AED?style=flat-square) | Working through Resend Python SDK contribution paths with focused tests, docs, and implementation notes. |
-
-- **[core-sending-lab](https://github.com/mayankbohradev/core-sending-lab)** is the main public repo for this track.
-- **[resend-python](https://github.com/mayankbohradev/resend-python)** is where I am studying SDK quality, test coverage, and contribution opportunities.
 
 ## Open Source
 
