@@ -1,6 +1,6 @@
 # Hi, I'm Mayank
 
-**Delhi / Jaipur** | **Applied AI Engineer** | **Building production GenAI systems across voice AI, RAG, memory, and MCP**
+**New Delhi, India** | **Applied AI Engineer** | **Building production GenAI systems across voice AI, RAG, memory, and MCP**
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -28,7 +28,19 @@
 - **[Highlyt](https://highlyt.app)** - AI-native reading and annotation product that turns PDFs, EPUBs, web articles, YouTube transcripts, and Kindle highlights into a connected knowledge graph queryable from Claude and ChatGPT through MCP.
 - **[Rehearsal AI](https://rehearsal.gradeless.ai)** - Voice-powered interview preparation platform at Gradeless AI. I work on question delivery, voice interviews, scoring, feedback reports, RAG, memory, and backend reliability across 10+ institutions.
 - **[Context Hub](https://contexthub.tryrehearsal.ai)** - Personal context layer for Claude, ChatGPT, Perplexity, Cursor, and other MCP clients. Deploys to Cloudflare Workers and keeps memory portable across tools.
-- **Multicast** - MCP gateway that fans out tool calls across multiple HTTP MCP servers in parallel, reducing repeated model thinking cycles and making remote tool use faster.
+- **[Multicast](https://www.npmjs.com/package/create-multicast)** - MCP gateway that fans out tool calls across multiple HTTP MCP servers in parallel, reducing repeated model thinking cycles and making remote tool use faster.
+
+## Resend Infra Track
+
+| Area | What I am showcasing |
+| --- | --- |
+| ![Email Queues](https://img.shields.io/badge/Email_Queues-retries%20%7C%20DLQ%20%7C%20workers-111827?style=flat-square) | Delivery pipelines with queue-backed workers, retry policy, dead-letter handling, and idempotency. |
+| ![Sending Reliability](https://img.shields.io/badge/Sending_Reliability-bounces%20%7C%20deferrals%20%7C%20throttling-0F766E?style=flat-square) | Bounce classification, provider deferrals, rate limits, backpressure, and reputation-aware routing simulations. |
+| ![Debug Console](https://img.shields.io/badge/Debug_Console-logs%20%7C%20events%20%7C%20traceability-2563EB?style=flat-square) | Operator-friendly visibility into message lifecycle, delivery attempts, worker decisions, and failure reasons. |
+| ![SDK Contributions](https://img.shields.io/badge/SDK_Contributions-Python%20%7C%20tests%20%7C%20docs-7C3AED?style=flat-square) | Working through Resend Python SDK contribution paths with focused tests, docs, and implementation notes. |
+
+- **[core-sending-lab](https://github.com/mayankbohradev/core-sending-lab)** is the main public repo for this track.
+- **[resend-python](https://github.com/mayankbohradev/resend-python)** is where I am studying SDK quality, test coverage, and contribution opportunities.
 
 ## Open Source
 
@@ -53,7 +65,7 @@
 - **[Medium](https://blog.mayankbohra.com)** - Writing on LLM engineering, Claude workflows, AI-assisted development, voice AI, MCP, and production GenAI.
 - **[Fieldwork](https://mayankbohra.substack.com)** - Substack field reports from building and shipping AI in production.
 - **Recent themes** - context rot, MCP security, human-in-the-loop AI, learning systems, AI product reliability, agent evaluation, and engineering judgment.
-- **Published in** - Towards AI, FAUN.dev, Built at Rehearsal, Bootcamp, CodeToDeploy, and personal publications.
+- **Publications** - [Towards AI](https://pub.towardsai.net/), [FAUN.dev](https://faun.pub/), [Built at Rehearsal](https://medium.com/built-at-rehearsal), [Bootcamp](https://medium.com/design-bootcamp), [Level Up Coding](https://levelup.gitconnected.com/), and [Activated Thinker](https://medium.com/activated-thinker).
 
 ## What I'm Doing
 
@@ -68,15 +80,17 @@
 
 - Microsoft Certified: Azure AI Fundamentals.
 - Meta Database Engineer Specialization.
+- Selected for YC Startup School India / VibeCon India builder track in April 2026; top 200 builders selected from 20,000+ applicants around YC's first Startup School event in India.
 - 3rd rank in university coding competition among 100+ participants.
 - B.Tech in Computer Science and Engineering, AI specialization, JK Lakshmipat University.
 - Recommendations from mentors and managers for technical ability, ownership, and reliability.
 
-## GitHub Activity
+## GitHub Focus
 
-![Mayank's GitHub stats](https://github-readme-stats.vercel.app/api?username=mayankbohradev&show_icons=true&theme=transparent&hide_border=true)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mayankbohradev&layout=compact&theme=transparent&hide_border=true)
+- **Applied AI systems** - voice AI, RAG, memory, evals, and production LLM workflows.
+- **MCP infrastructure** - servers, gateways, OAuth flows, Cloudflare deployments, and client integrations.
+- **Backend reliability** - async APIs, workers, Postgres/Supabase, observability, queues, retries, and rate limits.
+- **Email infrastructure** - message lifecycle simulation, delivery debugging, SDK contribution work, and operator tooling.
 
 ## Connect
 
