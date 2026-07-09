@@ -83,6 +83,10 @@
 - **Backend reliability** - async APIs, workers, Postgres/Supabase, observability, queues, retries, and rate limits.
 - **Email infrastructure** - message lifecycle simulation, delivery debugging, SDK contribution work, and operator tooling.
 
+## Contribution Activity
+
+![GitHub contribution activity in 2026](./assets/contributions-2026.svg)
+
 ## Connect
 
 [![Website](https://img.shields.io/badge/-Website-0D7C37?style=flat-square&logo=google-chrome&logoColor=white)](https://mayankbohra.com)
