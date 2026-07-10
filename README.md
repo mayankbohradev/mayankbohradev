@@ -40,6 +40,7 @@
 - **[voicenotes-mcp](https://github.com/mayankbohradev/voicenotes-mcp)** - Custom MCP server for Voicenotes with search, create, edit, tags, stdio/HTTP support, OAuth 2.1 PKCE/DCR, and token auth.
 - **[context-hub](https://github.com/mayankbohradev/context-hub)** - Shared AI context layer across MCP clients, running on Cloudflare Workers and D1.
 - **[core-sending-lab](https://github.com/mayankbohradev/core-sending-lab)** - Local email delivery simulator for queues, workers, retries, throttling, and delivery debugging.
+- **[resend-mcp](https://github.com/mayankbohradev/resend-mcp)** - MCP server for sending emails and interacting with Resend from AI tools.
 - **[MCP Python SDK PR #3066](https://github.com/modelcontextprotocol/python-sdk/pull/3066)** - Preserves query components in RFC 9728 protected-resource metadata URLs and resource validation.
 - **[resend-python](https://github.com/mayankbohradev/resend-python)** - Working through email infrastructure and SDK contribution paths.
 
